@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Enter Your Name!</h1>
+
+
+<button onclick="myFunction()" style="background-color: white;">Clcik Here!</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let person = prompt("Please enter your name", "john Doe");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "!";
+    alert("Thank You!");
+  }
+}
+</script>
+
+</body>
+</html>
