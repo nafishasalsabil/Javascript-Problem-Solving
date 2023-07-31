@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Comparison</h1>
+
+<p>Input your age and click the button:</p>
+
+<input id="age" value="18" />
+
+<button class="btn btn-success" onclick="myFunction()">Here</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let age = document.getElementById("age").value;
+  console.log("hiiiiiiiii");
+  if(age>25){
+    alert("You are a big guy now!");
+}
+else if(age<25){
+    alert("Uh oh! Still a baby!");
+}
+else if(age==25){
+    alert("Perfect!");
+}
+
+}
+</script>
+
+</body>
+</html>
